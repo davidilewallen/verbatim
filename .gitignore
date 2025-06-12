@@ -1,0 +1,16 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables
+.env
+
+# Output files
+/output/
+
+# System files
+.DS_Store

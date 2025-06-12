@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* GLOBAL STYLES */
+body, html {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* TYPOGRAPHY */
+p {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', sans-serif;
+  color: #fff !important;
+}
+
+/* TEXT COLOR OVERRIDES */
+a, li {
+  color: #fff !important;
+}
+
+/* SECTIONS */
+section {
+  background-color: #000 !important;
+}
+
+/* HEADER & FOOTER STYLING */
+.header, .footer {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* ACCENT SECTIONS (YELLOW BG) */
+.bg-accent {
+  background-color: #FD0 !important;
+  color: #000 !important;
+}
+
+/* DARK ALTERNATIVE SECT*
+
+/* Header-specific CTA button in mustard yellow */
+.header-cta-button {
+  background-color: #FD0 !important;
+  color: #000 !important;
+  border: 2px solid #FD0 !important;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-cta-button:hover {
+  background-color: #000 !important;
+  color: #FD0 !important;
+  border-color: #FD0 !important;
+  text-decoration: none;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.nav-link {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FD0 !important;
+}
+
