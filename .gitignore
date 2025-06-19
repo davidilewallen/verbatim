@@ -1,3 +1,6 @@
+,gitignore
+
+
 # Python cache and compiled files
 __pycache__/
 *.pyc
@@ -5,6 +8,10 @@ __pycache__/
 # Virtual environments
 venv/
 env/
+
+virt/
+/virt
+virt
 
 # Environment variables
 .env
